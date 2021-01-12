@@ -10,7 +10,7 @@ Fraser Redford
 
 GitHub URL: https://github.com/fredford
 
-Lab URL: https://github.com/fredford/lab1
+Lab URL: https://github.com/fredford/cmput404_lab1
 
 ## Question 2
 
@@ -59,3 +59,9 @@ Status code `301 Moved Permanently` is returned from the input URL of http://goo
 > What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
 
 In the comparison between the two curl outputs, several new form field instances were added or changed. This could allow for making a POST request to send data.
+
+## Question 8
+
+> What is the raw URL to your Python script on GitHub?
+
+https://raw.githubusercontent.com/fredford/cmput404_lab1/master/script.py

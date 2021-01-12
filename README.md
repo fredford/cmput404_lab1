@@ -53,3 +53,9 @@ Returns a valid status code of `200 OK`.
 > What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
 
 Status code `301 Moved Permanently` is returned from the input URL of http://google.com/teapot and status code `418 I'm a Teapot` is returned from the input URL of http://www.google.com/teapot.
+
+## Question 7
+
+> What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+
+In the comparison between the two curl outputs, several new form field instances were added or changed. This could allow for making a POST request to send data.

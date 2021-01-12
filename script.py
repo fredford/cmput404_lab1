@@ -4,6 +4,6 @@ print("Requests version: " + requests.__version__)
 print("Google status code: " + str(requests.get("http://www.google.com/").status_code))
 print("GitHub Python Script:\n")
 
-s = requests.get("https://raw.githubusercontent.com/fredford/cmput404_lab1/master/script.py")
+r = requests.get("https://raw.githubusercontent.com/fredford/cmput404_lab1/master/script.py")
 
-print(s.text)
+print(r.text)
